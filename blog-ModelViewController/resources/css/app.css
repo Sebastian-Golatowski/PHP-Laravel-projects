@@ -1,0 +1,64 @@
+body{
+    position: relative;
+}
+h3 :hover{
+    text-decoration: none;
+    color: black;
+}
+#navbar{
+    background-color: black;
+    color: white;
+    font-size: large;
+    margin-bottom: 5px;
+}
+#navbar a:hover{
+    color: gray;
+}
+#navbar a{
+    padding-left: 4%;
+    
+}
+#navbar li{
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+#navbar button{
+    margin-left: 5px;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#pag a{
+    color: black;
+    box-shadow: none;
+}
+#pag .page-item.active .page-link {
+    z-index: 1;
+    color: white;
+    background-color: black;
+    border-color: black;
+    
+}
+textarea {
+    resize: none;
+}
+.nav-left{
+    text-align: left;
+}
